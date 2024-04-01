@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://lh3.googleusercontent.com/pw/AP1GczMmmWT7Rvuv1mE6g_Z4wBAt1CppCdNkv5ddqz5VgOL4niSVZaYMmyJDmCgOihhfOhFL6sk6ElHiEAI4Za5RBlAfKIrsuH7N8-ZtMZOF62wntK5dJ_oRBILDdJYTIoUxH3kRPUM6EkZB3Cm8320OyOvjzfEPnQhN4cHHRQD6R0qMK2rv1M1KHaQmdvYaqsBkpM0Xmk7v8akos162d8hiF7CR-kyv3cYnc9CWY5IOUd71j1B8chGAbTmpoZU3YnOMre3XE2hIXZ9kh2mUwncrrK0SDeAC0ytgvNeVrKeBEaWqebK-TV9tb2Oh1V-eMM-ZKbiMf-wt1y0q0S6MIDJ9klx1J2F4FXvnbOCc_6Abe28BUwegIKG4g-JPS5swlwcsLzKVB2qLRiBkWblI4wM3fZUblsQVAERprzbA_2SYc2RLLDZHqp7w7ER-lCfcGH5iHMmSeqGt6z95uTZA8EdMeukpciI4OYa3aAZTIsyROE0IaD78gtXrW9-vhjQq1B1CccKChwNHPfCSqu6k5qHqL6Q8tCXdn2XANe2pR4gorzoOaGpNrDzA9vCL013SldFC-u-eU_tNbiOCALTiDESPv3K7bx0AuvaUy2awrkUL-YIvSzabUbhNZFHyofWJFoQECM7Y3duWW-c7ceewbG_G122QDhxAAS30_qIAriCKjD3ENCcJHgaeSRnUrzkiXOMMN8ZoFWAQBugrEoWC5MC0uhCowasXO_yaVbhYCYs4a9asFQGUtxuQkEUSzArmjw4Mj7_Nv8tFzu6KCW_eemeDbGOyfnkd-_7HK40VGdSPXFJ_g216mdTORJ8WT4RYGiMFV0TUNz7nl4lBQFycOiOS27ERGabHoJtLJXVJEyC9bPnc8gdq6QP1lpZ7z1x-MWtWys1a2kEarYkz3_us-WFI6H3Z=w736-h736-s-no-gm?authuser=0"
+              src="/pfp.jpg"
               alt="Aaryan pfp"
               width="192"
               height="192"
