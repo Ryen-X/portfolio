@@ -35,7 +35,7 @@ export const projectsData = [
     title: 'rxai.vercel.app',
     description:
       "I worked as a full-stack developer on this startup project for a few days. Users can receive summarized articles from blog posts in matter of seconds.",
-    tags: ["React", "Next.js", "Rapid API", "Tailwind", "Redux"],
+    tags: ["React", "Vite.js", "Rapid API", "Tailwind", "Redux"],
     imageUrl: projec,
   },
   {
