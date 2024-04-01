@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="pfp.png"
+              src="https://i.postimg.cc/sDgZ4g05/pfp.jpg"
               alt="Aaryan pfp"
               width="192"
               height="192"
