@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 100% 98%;
+    /* Lighter background */
+    --foreground: 210 100% 20%;
+    /* Darker foreground for contrast */
+
+    --card: 210 100% 98%;
+    /* Light card */
+    --card-foreground: 210 100% 20%;
+    /* Dark card text */
+
+    --popover: 210 100% 98%;
+    /* Light popover */
+    --popover-foreground: 210 100% 20%;
+    /* Dark popover text */
+
+    --primary: 210 100% 36%;
+    /* Primary color (#0054b5) */
+    --primary-foreground: 0 0% 98%;
+    /* White text on primary */
+
+    --secondary: 210 50% 50%;
+    /* Secondary color */
+    --secondary-foreground: 0 0% 98%;
+    /* Light secondary text */
+
+    --muted: 210 30% 70%;
+    /* Muted color */
+    --muted-foreground: 210 20% 40%;
+    /* Darker muted text */
+
+    --accent: 210 60% 45%;
+    /* Accent color */
+    --accent-foreground: 0 0% 98%;
+    /* Light accent text */
+
+    --destructive: 0 84.2% 60.2%;
+    /* Destructive color (unchanged) */
+    --destructive-foreground: 0 0% 98%;
+    /* Light destructive text */
+
+    --border: 210 60% 80%;
+    /* Lighter border for blue theme */
+    --input: 210 60% 80%;
+    /* Input background */
+    --ring: 210 70% 50%;
+    /* Ring around elements */
+
+    --radius: 0.5rem;
+    /* Radius of elements */
+  }
+
+  .dark {
+    --background: 210 100% 20%;
+    /* Dark background for dark mode */
+    --foreground: 0 0% 98%;
+    /* Light foreground for dark mode */
+
+    --card: 210 100% 20%;
+    /* Dark card */
+    --card-foreground: 0 0% 98%;
+    /* Light text on dark card */
+
+    --popover: 210 100% 20%;
+    /* Dark popover */
+    --popover-foreground: 0 0% 98%;
+    /* Light text on dark popover */
+
+    --primary: 0 0% 98%;
+    /* Light primary color for dark mode */
+    --primary-foreground: 210 100% 36%;
+    /* Blue text on primary */
+
+    --secondary: 210 30% 60%;
+    /* Darker secondary color */
+    --secondary-foreground: 0 0% 98%;
+    /* Light text on secondary */
+
+    --muted: 210 30% 60%;
+    /* Muted color for dark mode */
+    --muted-foreground: 210 20% 70%;
+    /* Muted foreground text for dark mode */
+
+    --accent: 210 40% 55%;
+    /* Accent color for dark mode */
+    --accent-foreground: 0 0% 98%;
+    /* Light accent text */
+
+    --destructive: 0 62.8% 30.6%;
+    /* Destructive color (unchanged) */
+    --destructive-foreground: 0 0% 98%;
+    /* Light destructive text */
+
+    --border: 210 30% 40%;
+    /* Darker border for dark mode */
+    --input: 210 30% 40%;
+    /* Input background */
+    --ring: 210 70% 60%;
+    /* Darker ring for dark mode */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border !scroll-smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  button {
+    @apply active:outline-none;
+  }
+}
+
+@layer utilities {
+  .heading {
+    @apply font-bold text-4xl md:text-5xl text-center;
+  }
+}
